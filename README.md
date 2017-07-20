@@ -1,8 +1,8 @@
 ## Welcome to Minimalist Alpine + Nginx + PHP (PHP5 & PHP7)
 
 ### All Latest Stable Version
-- Alpine: 3.5
-- Nginx: 1.10.3
+- Alpine: 3.6.0
+- Nginx: 1.12.1
 - PHP5: 5.6.30
 - PHP7: 7.1.7
 
