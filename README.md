@@ -10,6 +10,7 @@
 <code>docker run -p 80:80 -h nginx-php -d dootvmedia/alpine-php7</code>
 
 <code>docker run -p 80:80 -v /home/apps:/apps -h nginx -d dootvmedia/alpine-php7</code>
+
 map your website path to the container
 
 
