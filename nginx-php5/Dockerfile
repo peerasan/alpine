@@ -7,7 +7,7 @@ LABEL maintainer "Peerasan Buranasanti <peerasan@gmail.com>"
 RUN apk upgrade -U && apk --no-cache add \
 	supervisor tzdata ffmpeg \
 	nginx php5 php5-fpm php5-json php5-mysql php5-mysqli php5-pdo_mysql php5-openssl php5-mcrypt php5-xml php5-curl php5-ctype \
-	php5-mbstring php5-exif php5-phar php5-dom php5-zlib && \
+	php5-gd php5-exif php5-phar php5-dom php5-zlib && \
 	cp -r /etc/php5 /etc/php5.orig && \
 	cp -r /etc/nginx /etc/nginx.orig && \
 	cp -r /etc/supervisord.conf /etc/supervisord.conf.orig
