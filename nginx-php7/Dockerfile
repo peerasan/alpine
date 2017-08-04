@@ -24,6 +24,7 @@ RUN set -x ; \
 
 #CLEAN
 RUN mkdir -p /apps; \
+	mkdir -p /var/run/php; \
 	mkdir -p /var/log/php7; \
 	chown -Rf nginx:nginx /apps
 
