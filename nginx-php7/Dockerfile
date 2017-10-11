@@ -5,7 +5,7 @@ LABEL maintainer "Peerasan Buranasanti <peerasan@gmail.com>"
 # Stable Repo
 #RUN apk upgrade -U && apk --update --repository=http://dl-4.alpinelinux.org/alpine/edge/testing --repository=http://dl-4.alpinelinux.org/alpine/edge/main add \
 RUN apk upgrade -U && apk --no-cache add \
-	supervisor nginx ffmpeg tzdata\
+	supervisor tzdata nginx ffmpeg imagemagick \
 	php7 php7-fpm php7-fileinfo php7-tokenizer php7-json php7-session php7-mbstring php7-mysqli php7-pdo_mysql php7-mysqlnd php7-openssl php7-mcrypt php7-xml php7-curl php7-ctype \
 	php7-gd php7-imagick php7-exif php7-phar php7-dom php7-zlib php7-memcached && \
 	cp -r /etc/php7 /etc/php7.orig && \
