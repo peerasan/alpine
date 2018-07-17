@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 
 LABEL maintainer "Peerasan Buranasanti <peerasan@gmail.com>"
 
