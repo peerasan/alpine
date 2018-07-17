@@ -3,9 +3,8 @@ FROM alpine:latest
 LABEL maintainer "Peerasan Buranasanti <peerasan@gmail.com>"
 
 # Stable Repo
-RUN apk upgrade -U && apk --no-cache add supervisor tzdata nginx;
-
-CMD cp -r /etc/nginx /etc/nginx.orig && \
+RUN apk upgrade -U && apk --no-cache add supervisor tzdata nginx && \
+cp -r /etc/nginx /etc/nginx.orig && \
 cp -r /etc/supervisord.conf /etc/supervisord.conf.orig
   
 COPY fs /
