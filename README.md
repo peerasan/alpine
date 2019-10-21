@@ -1,18 +1,14 @@
 ## Welcome to Minimalist Alpine + Nginx + PHP (PHP5 & PHP7)
 
 ### All Latest Stable Version
-- Alpine: 3.6.0
-- Nginx: 1.12.1
-- PHP5: 5.6.30
-- PHP7: 7.1.7
+- Alpine: 3.10
+- Nginx: 1.16.1
+- PHP7: 7.3.10
 
 ### How to use
 <code>docker run -p 80:80 -h nginx-php -d dootvmedia/alpine:nginx-php7</code>
 
 <code>docker run -p 80:80 -v /home/apps:/apps -h nginx -d dootvmedia/alpine:nginx-php7</code>
-
-map your website path to the container
-
 
 ### Support or Contact
 There is no any Support. We use the project for internal development. Thanks
