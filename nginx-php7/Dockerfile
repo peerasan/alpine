@@ -12,7 +12,8 @@ RUN apk upgrade -U && apk --no-cache add \
 	cp -r /etc/nginx /etc/nginx.orig && \
 	cp -r /etc/supervisord.conf /etc/supervisord.conf.orig
   
-COPY fs /
+#COPY fs /
+ADD ["fs", "/"]
 
 # ensure www-data user exists
 # 82 is the standard uid/gid for "www-data" in Alpine
