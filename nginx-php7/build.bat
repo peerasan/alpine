@@ -1,5 +1,11 @@
 ' docker stop $(docker ps -a -q)
 ' docker rm $(docker ps -a -q)
+
+' NOTE : Since windows may face file permission issue - recommend build from Unix (Linux or Mac)
+' SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. 
+' All files and directories added to build context will have '-rwxr-xr-x' permissions. 
+' It is recommended to double check and reset permissions for sensitive files and directories.
+
 docker stop pat
 docker rm pat
 docker rmi pat
