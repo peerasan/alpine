@@ -6,9 +6,9 @@
 - PHP7: 7.3.10
 
 ### How to use
-<code>docker run -p 80:80 -h nginx-php -d dootvmedia/alpine:nginx-php7</code>
+<code>docker run -p 80:80 -h nginx-php -d frogdigital/alpine:nginx-php7</code>
 
-<code>docker run -p 80:80 -v /home/apps:/apps -h nginx -d dootvmedia/alpine:nginx-php7</code>
+<code>docker run -p 80:80 -v /home/apps:/apps -h nginx -d frogdigital/alpine:nginx-php7</code>
 
 ### Support or Contact
 There is no any Support. We use the project for internal development. Thanks
